@@ -1,5 +1,7 @@
 package fr.wildcodeschool.blablawild2;
 
+import com.google.firebase.database.DatabaseReference;
+
 import java.util.Date;
 
 /**
@@ -41,4 +43,9 @@ public class ItineraryModel {
     public int getPrice() {
         return price;
     }
+
+    public ItineraryModel() {
+    }
+
 }
+
